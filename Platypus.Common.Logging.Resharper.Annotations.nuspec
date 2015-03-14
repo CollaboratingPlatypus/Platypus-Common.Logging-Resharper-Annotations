@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Platypus.Common.Logging.Resharper.Annotations</id>
+    <version>1.0.0.0</version>
+    <authors>Collaborating Platypus</authors>
+    <owners>Collaborating Platypus</owners>
+    <description>Resharper annotations for the Common.Logging library.</description>
+    <projectUrl>https://github.com/CollaboratingPlatypus/Platypus-Common.Logging-Resharper-Annotations</projectUrl>
+    <iconUrl><![CDATA[https://avatars2.githubusercontent.com/u/10597031?s=200]]></iconUrl>
+    <licenseUrl>https://github.com/CollaboratingPlatypus/Platypus-Common.Logging-Resharper-Annotations/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright 2015</copyright>
+    <tags>Common Logging Resharper Annotiations</tags>
+  </metadata>
+  <files>
+    <file src="Content\Common.Logging.Core.ExternalAnnotations.xml" target="content\Common.Logging.Core.ExternalAnnotations.xml" />
+    <file src="Tools\Init.ps1" target="tools\Init.ps1" />
+    <file src="Tools\Uninstall.ps1" target="tools\Uninstall.ps1" />
+  </files>
+</package>
