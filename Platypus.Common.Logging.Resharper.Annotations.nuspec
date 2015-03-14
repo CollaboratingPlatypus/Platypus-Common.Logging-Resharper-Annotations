@@ -15,7 +15,7 @@
   </metadata>
   <files>
     <file src="Content\Common.Logging.Core.ExternalAnnotations.xml" target="content\Common.Logging.Core.ExternalAnnotations.xml" />
-    <file src="Tools\Init.ps1" target="tools\Init.ps1" />
+    <file src="Tools\Init.ps1" target="tools\Install.ps1" />
     <file src="Tools\Uninstall.ps1" target="tools\Uninstall.ps1" />
   </files>
 </package>
