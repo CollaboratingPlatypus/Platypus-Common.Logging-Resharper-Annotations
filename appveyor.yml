@@ -6,7 +6,7 @@ skip_tags: true
 nuget:
   project_feed: true
 build_script:
-- ps: nuget pack Platypus.Common.Logging.Resharper.Annotations.nuspec      
+- ps: nuget pack Platypus.Common.Logging.Resharper.Annotations.nuspec -Version $env:APPVEYOR_BUILD_VERSION
 artifacts:
 - path: '*Platypus*.nupkg'
 deploy:
