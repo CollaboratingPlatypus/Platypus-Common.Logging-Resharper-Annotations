@@ -3,10 +3,10 @@ branches:
   only:
   - master
 skip_tags: true
-configuration: Release
-platform: Any CPU
 nuget:
   project_feed: true
+build_script:
+- ps: nuget -Pack Platypus.Common.Logging.Resharper.Annotations.nuspec      
 artifacts:
 - path: '*Platypus*.nupkg'
 deploy:
